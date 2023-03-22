@@ -18,3 +18,8 @@ To wait for a certain amount of time, You do Sleep() then your number so like Sl
 To end the game, Use EndGameVictoryDecide.Active{Agent}
 To make a hud message on the GUI, Do HudMessageBattery.SetText(textonthegud)
 Then HudMessageBattery.Show(Agent)
+To call a device, We do this by "Indexing" into the array. It is inside the "if" statement to ensure that the index is actually within the array.
+if:
+NameOfDevice : NameOfDevice[WhatItHasToDoForItToSpawn}
+then :
+NextNameOfDevice.SpawnItem() for example.

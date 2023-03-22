@@ -1,0 +1,20 @@
+Im going to teach you the "Verse" Programming language for UEFN.
+
+Verse uses | to seperate statements
+This is verse's way of creative a sort of or statement.
+verse will check if EITHER of the statements are true, Not both.
+x > y | y > x
+if the "If" code is not on the same line as the if statement, You must call then to start the code block.
+Logger.print is a native uefn func that prints to console, Similar to debug.log
+Logger.print("One of the values is greather then the other")
+variable assigments inside of if statement will assign on a global level
+z = 0
+else : Logger.print("X is not greater then y")||
+And to deal damage to the for character, you have to get the fort character by : FortCharacter:fort_character = Agent.GetFortCharacter[]
+then :
+FortCharacter.Damage(100.0)
+
+To wait for a certain amount of time, You do Sleep() then your number so like Sleep(3.0)
+To end the game, Use EndGameVictoryDecide.Active{Agent}
+To make a hud message on the GUI, Do HudMessageBattery.SetText(textonthegud)
+Then HudMessageBattery.Show(Agent)
